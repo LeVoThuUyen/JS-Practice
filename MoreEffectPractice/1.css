@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0;} 
+.oneElement{
+	position: relative;
+	float: right;
+	margin-right: 200px;
+	margin-top: 10px;
+	transition: 0.4s;
+	
+
+}
+.list{
+	position: absolute;
+	top:33px;
+	right: -12px;
+	width: 200px;
+	opacity: 0;
+	visibility: hidden;
+
+}
+.list:after{
+	content: "";
+	position: absolute;
+	top:-20px;
+	width: 0;
+	height: 0;
+	border: 11px rgba(255,255,0,0) solid;
+	border-bottom-color: white; 
+	right: 6px;
+}
+li.list-group-item:hover{
+	color: white;
+	background: #3b5998;
+
+}
+.icon{
+	font-size: 19px;
+	transition: 0.4s;
+	color: black;
+	cursor: pointer;
+}
+.bluebar{
+	height: 43px;
+	background: #3b5998;
+}
+.whiteicon{
+	color: white;
+}
+.ra{
+	opacity: 1;
+	visibility: visible;
+}

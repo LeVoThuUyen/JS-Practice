@@ -1,0 +1,5 @@
+*{margin: 0; padding: 0;} 
+.card{transition: 0.4s;}
+.goright{
+	transform: translateX(400px);
+}

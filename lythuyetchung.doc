@@ -1,0 +1,13 @@
+1. Ba hàm xử lý giao diện : xử lý class ( xử lý css )
+a. classList.remove(tenclass)
+b. classList.add(tenclass)
+c. classList.toggle(tenclass)( add + remove)
+d. classList.remove() : bỏ tất cả các class
+
+2. Xử lý sự kiện trong JS và khái niệm về document ready
+- Mục đích : Để xử lý sự kiện ( click, di chuột, cuộn chuột,...) thì cần chờ cho nội dung html được load xong sua đó mới bắt đầu load js, nếu k sẽ bị lỗi
+- Hàm document ready : 
+	document.addEventListener("DOMContentLoader",function(){},false)
+- Hàm sự kiện click : 
+	ten1phantu.onclick = function(){}
+3. BT 1 : Cho khoi noi dung di sang phai khi click vao 1 nut. Click lan 2, khoi tro ve cho cu => 2 cach lam : C1 : SD transition, C2: SD animation (animation co them keyframe)
